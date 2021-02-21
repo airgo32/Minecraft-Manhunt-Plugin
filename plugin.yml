@@ -1,0 +1,14 @@
+name: scuffedManhunt
+main: testPlugin.testPlugin
+version: 1.0
+api-version: 1.16
+commands:
+    setrunner:
+        description: sets the desired player as the runner
+        usage: /<command> <player>
+        permission: testplugin.op
+        
+    clearrunner:
+        description: clears the current runner
+        usage: /<command>
+        permission: testplugin.op
